@@ -1,0 +1,98 @@
+/*Medium screens*/
+@media (min-width: 701px) and (max-width: 1100px){
+  .grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(50px, max-content);
+  grid-template-areas: 
+    "nav nav"
+    "hd hd"
+    "intro intro"
+    "main main"
+    "ft ft";
+  }
+
+  .navbar-links{
+  font-size: larger;
+  }
+
+  .banner-title{ 
+  font-size: 27px;
+  padding-right: 20%;
+  justify-content: space-evenly;
+  margin: 50px;
+  }
+
+  #intro{
+  padding: 3%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  margin: 0;
+  } 
+
+  .container{
+  padding: 30px;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  }
+
+  .plant{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1101px){
+  .grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(50px, max-content);
+  grid-template-areas: 
+    "nav nav"
+    "hd hd"
+    "intro intro"
+    "main main" 
+    "ft ft";
+  }
+
+  .navbar-links{
+  font-size: larger;
+  }
+
+  .banner-title{ 
+  font-size: 35px;
+  padding-right: 0;
+  margin: 50px;
+  justify-content: space-evenly;
+  }
+
+  #intro{
+  padding: 3%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  margin: 0;
+  }
+
+  .container{
+  padding: 20px;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+  
+  .plant{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  }
+} 

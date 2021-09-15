@@ -1,0 +1,51 @@
+/* Large Screens */
+@media (min-width: 751px){
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(50px, max-content);
+  grid-template-areas: 
+    "nav"
+    "hd"
+    "main" 
+    "main"
+    "ft";
+}
+
+.navbar-links{
+  font-size: larger;
+}
+
+.banner-title{ 
+  font-size: 60px;
+  padding-right: 0;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+
+.container{
+  padding: 15px;
+}
+  
+.box{
+  display: flex;
+  text-align: left;
+}
+
+.card{
+  text-align: left;
+}
+
+.box-text{
+  display: block;
+  text-align: left;
+  padding: 0;
+  padding-right: 20px;
+}
+
+#person .box-text{
+  display: inline-block;
+  text-align: right;
+}
+
+} 

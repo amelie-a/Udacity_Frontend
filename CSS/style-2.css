@@ -1,0 +1,84 @@
+.container{
+  padding: 10px;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  margin: 30px;
+  text-align: justify;
+}
+
+.card{
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px #85B29E;
+  border-radius: 10px;
+  background: #f2f2f2;
+}
+
+.card:hover{
+  background: #85B29E;
+  cursor: pointer;
+}
+
+.caption{
+  margin-top: 15px;
+  text-align: justify;
+}
+  
+.button-link{
+  background-color: #48a37a;
+  color:whitesmoke;
+  padding: 8px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+  
+.button-link:hover{
+  background-color: whitesmoke;
+  color: #404040;
+}
+  
+.plant{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+footer{
+  grid-area: ft;
+  display: block;
+  color:whitesmoke;
+  margin: 0;
+  padding: 3px;
+  text-align: center;
+  background-image: url(images/plant-header.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 80%;
+}
+
+.socialmedia{
+  align-items: center;
+}
+
+.social-icon{
+  margin: 0% 2%;
+  color: whitesmoke;
+}
+
+.social-icon:hover{
+  color: black;
+}
+
+#pride{
+  font-style: oblique;
+}
